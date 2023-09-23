@@ -24,7 +24,7 @@ The backend was built using the Node JS framework. To run the backend locally, f
 The backend will be running at `http://localhost:8100`
 
 ## Running the Frontend Locally
-The frontend was build using Angular-Ionic. To run the frontend locally, make sure you are in the root folder and run the following commands below in order:
+The frontend was build using **Angular-Ionic**. To run the frontend locally, make sure you are in the root folder and run the following commands below in order:
 
 ```
 1. cd udagram/udagram-frontend
@@ -32,3 +32,34 @@ The frontend was build using Angular-Ionic. To run the frontend locally, make su
 3. npm run start
 ```
 The frontend will be running at `http://localhost:4200/`
+
+## More Documentations
+To learn more about the project dependencies, AWS architecture, and the CI/CD pipline, please see the **screenshots** folder and the **documentations** folder.
+
+## Testing
+
+This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
+
+1. `cd starter/udagram-frontend`
+1. `npm run test`
+1. `npm run e2e`
+
+There are no Unit test on the back-end
+
+### Unit Tests:
+
+Unit tests are using the Jasmine Framework.
+
+### End to End Tests:
+
+The e2e tests are using Protractor and Jasmine.
+
+## Built With
+
+- [Angular](https://angular.io/) - Single Page Application Framework
+- [Node](https://nodejs.org) - Javascript Runtime
+- [Express](https://expressjs.com/) - Javascript API Framework
+
+## License
+
+[License](LICENSE.txt)
